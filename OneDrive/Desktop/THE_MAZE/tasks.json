@@ -1,0 +1,26 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "build",
+        "type": "shell",
+        "command": "g++",
+        "args": [
+          "-g",
+          "${workspaceFolder}/main.cpp",
+          "-o",
+          "${workspaceFolder}/main",
+          "-I/C:/Users/Joseph Njoroge/Downloads/Compressed/SDL2-2.30.7-win32-x64/include",
+          "-L/C:/Users/Joseph Njoroge/Downloads/Compressed/SDL2-2.30.7-win32-x64/lib",
+          "-lSDL2"
+        ],
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        },
+        "problemMatcher": ["$gcc"],
+        "detail": "Generated task by VS Code."
+      }
+    ]
+  }
+  
